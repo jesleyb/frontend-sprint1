@@ -1,0 +1,22 @@
+:root{
+	--color-de-fondo: #F5F5F5;
+	--color-de-link: #000;
+}
+
+* {
+	margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-de-fondo) ;
+    font-family: 'Raleway', sans-serif;
+	color: #464646;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}

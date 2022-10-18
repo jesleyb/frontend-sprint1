@@ -1,0 +1,26 @@
+.academic__courses__list {
+	margin-bottom: 1rem;
+}
+.academic__courses__item {
+	margin-bottom: 6px;
+	
+}
+.academic__courses__item__img {
+	text-align: center;
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	.academic__courses {
+		margin-left: 1rem;
+		margin-right: 1rem;
+		display: grid;
+		grid-template-columns: 33.33% 33.33% 33.33%;
+		grid-template-rows: 100%;
+	}
+	.academic__courses__box {
+		margin: 1rem;
+	}
+}

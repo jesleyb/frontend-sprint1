@@ -1,0 +1,11 @@
+.footer {
+	background-color: white;
+	padding: 20px 0px 20px 0px;
+}
+.footer__rodape {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.1875;
+	text-align: center;
+}

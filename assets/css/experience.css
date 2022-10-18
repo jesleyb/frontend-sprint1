@@ -1,0 +1,73 @@
+.experience {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.experience__box, .experience__box-container {
+	margin: 1rem;
+}
+.experience__img {
+	width: 100%;
+}
+.experience__title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 1.1875rem;
+}
+.experience__text {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.875rem;
+	line-height: 1rem;
+}
+.experience__description {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 12px 0px;
+	gap: 10px;
+}
+.experiencia__botao--repo {
+	border: 1px solid #2A7AE4;
+	width: 108px;
+	height: 40px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 1rem;
+	color: #2A7AE4;
+}
+.experience__botao--demo {
+	background: #2A7AE4;
+	width: 108px;
+	height: 40px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 1rem;
+	color: #FFFFFF;
+}
+
+@media screen and (min-width: 1024px) {
+	.experience__box {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.experience__box-container {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.experience__info {
+		padding: 1rem;
+	}
+	.experience__img {
+		width: 752px;
+		height: 406px;
+	}
+}
